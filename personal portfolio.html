@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .bg-image{
+            /*the image used*/
+            background-image: url(https://i.vimeocdn.com/video/913196501-78b95a43482e562636a15028d788e85cfd7ce6f4f096202e1accf486c736d45d-d_640x360.jpg);
+            /*add the blur effect*/
+            opacity: calc(1);
+            /*full height*/
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bg-text{
+            background-color: rgb(0,0,0);
+            background-color:rgba(0,0,0,0.4);
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    
+    
+
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <img src="../avtar girl.svg"  width="80px">
+        <p>hello, I'm Vaishnavi</p>
+        <h2>I am a learner</h2>
+        <a href="./vaishnavi.html">click here to view my portfolio</a>
+    </div>
+    
+</body>
+</html>
